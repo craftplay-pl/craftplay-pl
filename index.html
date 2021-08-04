@@ -45,7 +45,18 @@
 <div class="grid-x grid-margin-y grid-margin-x">
 
     <div class="cell small-6 medium-6 large-3 large-offset-15 server-chose" data-server-id="1" data-server="craftplay-survivalguild" data-aos="fade-up" data-aos-delay="100"></div>
-<div class="cell small-6 medium-6 large-3  server-chose" data-server-id="1" data-server="craftplay-survivalguild" data-aos="fade-up" data-aos-delay="100">
+
+    <script>
+        function download(){
+            var a = document.createElement("a");
+			a.href = "https://github.com/file-hoster/craftplay/releases/download/Craftplay/CraftPlay.zip";
+			a.setAttribute("download", "CraftPlay.zip");
+			a.click();
+        }
+
+    </script>
+
+<div class="cell small-6 medium-6 large-3  server-chose" data-server-id="1" data-server="craftplay-survivalguild" data-aos="fade-up" data-aos-delay="100" onclick="download()">
 <div class="server-chose-icon fit-content text-center mx-auto">
 <img src="assets/img/icons/chestpvp.svg" alt="Survival + Gildie (1.8.8)">
 </div>
